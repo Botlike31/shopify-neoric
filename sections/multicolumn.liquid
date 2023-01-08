@@ -63,8 +63,7 @@ endif
           <div class="multicolumn-card content-container">
             <div class="multicolumn-quality_info">
               <div>
-                <img src="{{ block.settings.image | image_url: width: 48 }}" class="cart-item__image"
-                  alt="{{ item.image.alt | escape }}" loading="lazy" width="48" height="48">
+                {%- render 'icon-badge-quality' -%}
               </div>
               <div>
                 <h3>{{ block.settings.title | escape }}</h3>
@@ -324,6 +323,12 @@ endif
 "id": "title",
 "default": "Column",
 "label": "t:sections.multicolumn.blocks.column.settings.title.label"
+},
+{
+"type": "richtext",
+"id": "text",
+"default": "<p>Dank weichem Silikon</p>",
+"label": "t:sections.multicolumn.blocks.column.settings.text.label"
 },
 {
 "type": "text",

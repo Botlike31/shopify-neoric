@@ -478,6 +478,7 @@ a.product__text {
 .product-tax-info {
 	font-size: 0.8rem;
 	font-weight: bolder;
+	letter-spacing: 0;
 }
 
 .product--no-media noscript .product-form__input,
