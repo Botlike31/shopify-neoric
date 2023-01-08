@@ -1,80 +1,107 @@
 {
-	"sections": {
-		"main": {
-			"type": "main-product",
-			"blocks": {
-				"title": { "type": "title", "settings": {} },
-				"price": { "type": "price", "settings": {} },
-				"buy_buttons": {
-					"type": "buy_buttons",
-					"settings": { "show_dynamic_checkout": false }
-				}
-			},
-			"block_order": ["title", "price", "buy_buttons"],
-			"settings": {
-				"enable_sticky_info": true,
-				"media_position": "left",
-				"gallery_layout": "thumbnail_slider",
-				"media_size": "small",
-				"mobile_thumbnails": "hide",
-				"hide_variants": true,
-				"enable_video_looping": false,
-				"padding_top": 36,
-				"padding_bottom": 12
-			}
-		},
-		"multicolumn": {
-			"type": "multicolumn",
-			"blocks": {
-				"column-0": {
-					"type": "column",
-					"settings": {
-						"title": "100% Qualität",
-						"text": "<p>Dank weichem Silikon</p>",
-						"link_label": "",
-						"link": "",
-						"icon": "certified.png"
-					}
-				},
-				"column-1": {
-					"type": "column",
-					"settings": {
-						"title": "100% Qualität",
-						"text": "<p>Dank weichem Silikon</p>",
-						"link_label": "",
-						"link": "",
-						"icon": "certified.png"
-					}
-				},
-				"column-2": {
-					"type": "column",
-					"settings": {
-						"title": "100% Qualität",
-						"text": "<p>Dank weichem Silikon</p>",
-						"link_label": "",
-						"link": "",
-						"icon": "certified.png"
-					}
-				}
-			},
-			"block_order": ["column-0", "column-1", "column-2"],
-			"settings": {
-				"title": "",
-				"heading_size": "h1",
-				"image_width": "full",
-				"image_ratio": "adapt",
-				"columns_desktop": 3,
-				"column_alignment": "left",
-				"background_style": "none",
-				"button_label": "",
-				"button_link": "",
-				"color_scheme": "background-1",
-				"columns_mobile": "1",
-				"swipe_on_mobile": false,
-				"padding_top": 36,
-				"padding_bottom": 36
-			}
-		}
-	},
-	"order": ["main", "multicolumn"]
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "43fc5b3c-0466-43a6-a3a6-b5fb1c73f831": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "43fc5b3c-0466-43a6-a3a6-b5fb1c73f831",
+        "buy_buttons"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quality.png",
+            "title": "100% Qualität",
+            "text": "<p>Dank weichem Silikon<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quality.png",
+            "title": "100% Qualität",
+            "text": "<p>Dank weichem Silikon<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/quality.png",
+            "title": "100% Qualität",
+            "text": "<p>Dank weichem Silikon<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn"
+  ]
 }
